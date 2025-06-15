@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
-    
+    // Select the necessary DOM elements
     const addButton = document.getElementById('add-task-btn');
     const taskInput = document.getElementById('task-input');
     const taskList = document.getElementById('task-list');
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        
+        // Create a new <li> element for the task
         const li = document.createElement('li');
         li.textContent = taskText;
 
@@ -50,6 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Optional: Call addTask on DOM load if you want default tasks (currently no default call)
-    // addTask(); // <- Uncomment only if you want to pre-populate a task
+    
 });
+
