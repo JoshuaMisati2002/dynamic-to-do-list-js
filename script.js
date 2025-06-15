@@ -1,4 +1,4 @@
-// Ensure all JavaScript code runs only after the entire HTML document has been fully loaded and parsed.
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // Select DOM Elements
@@ -126,6 +126,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-}); // End of DOMContentL
+}); 
 
 
